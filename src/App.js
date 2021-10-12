@@ -1,10 +1,11 @@
 import { ThemeProvider } from "styled-components";
 import { theme } from "./theme";
+import Header from "./components/Header/Header.jsx";
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div>Home</div>
+      <Header />
     </ThemeProvider>
   );
 }
